@@ -154,6 +154,15 @@
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
 }
+.content__link:hover{
+  border-bottom: 1px solid currentColor;
+}
+
+.content__link:focus{
+  border: none;
+  outline: none;
+  border: 1px solid currentColor;
+}
 
 .content__title-first-level{
   color: var(--content-title-first-level-color);
