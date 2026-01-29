@@ -112,10 +112,10 @@
   border: none;
   font-size: inherit;
   text-transform: lowercase;  
-  padding: 2px 13px 4px;
+  padding: 2px 13px 5px;
   cursor: pointer;
   appearance: none;
-  line-height: normal;
+  line-height: 1;
 }
 
 .header__theme-menu-button:hover
@@ -303,6 +303,10 @@
   .what__content__section{    
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content 1fr;    
+  }
+
+  .what__content__section .content__text-block{
+    grid-column: auto;
   }
   
   .what__content__section .content__text-block{  
