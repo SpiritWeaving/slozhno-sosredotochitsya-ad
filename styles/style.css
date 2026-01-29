@@ -43,7 +43,7 @@
   content: 'REC';
   color: var(--nav-color);  
   position: absolute;
-  inset: 0 -2em;
+  margin-inline-start: -2em;
   display: inline-block;
 }
 
@@ -115,6 +115,7 @@
   padding: 2px 13px 4px;
   cursor: pointer;
   appearance: none;
+  line-height: normal;
 }
 
 .header__theme-menu-button:hover
@@ -148,6 +149,7 @@
   font-weight: bold;    
   margin-block: var(--header-text-margin-block);
   grid-column: span 3;
+  line-height: 1.3;
 }
 
 /*Секция main*/
@@ -194,6 +196,10 @@
 
 .content__title-third-level{  
   font-weight: normal;
+}
+
+.gallery__content__section{
+  gap: var(--grid-gap);
 }
 
 .gallery__image{
