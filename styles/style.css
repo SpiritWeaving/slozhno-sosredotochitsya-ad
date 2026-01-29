@@ -234,13 +234,18 @@
   }
 
   .why__content__section, 
-  .how__content__section{    
+  .how__content__section,
+  .what__content__section{    
     grid-template-columns: 32% 1fr;     
   }
 
   .why__content__section .content__text-block,
   .how__content__section .content__text-block{
     grid-column: 2;
+  }
+
+  .what__content__section .content__text-block{
+    grid-column: span 2;
   }
 
   .how__content__section .content__title-first-level{
